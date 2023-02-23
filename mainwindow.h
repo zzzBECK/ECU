@@ -15,6 +15,19 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+
+    void on_Brake_clicked();
+
+    void on_Acceleration_clicked();
+
+    void on_Autocross_clicked();
+
+    void on_SkidPad_clicked();
+
+    void on_Endurance_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

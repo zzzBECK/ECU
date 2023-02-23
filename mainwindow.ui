@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1114</width>
-    <height>771</height>
+    <width>800</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -26,267 +26,6 @@
    <string notr="true">background-color: rgb(44, 44, 44);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="Brake">
-    <property name="geometry">
-     <rect>
-      <x>6</x>
-      <y>380</y>
-      <width>120</width>
-      <height>77</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Black</family>
-      <pointsize>12</pointsize>
-      <italic>false</italic>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 900 12pt &quot;Arial Black&quot;;
-background-color: rgb(44, 44, 44);
-
-QPushButton :: hover{
-
-}</string>
-    </property>
-    <property name="text">
-     <string>Brake</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Acceleration">
-    <property name="geometry">
-     <rect>
-      <x>133</x>
-      <y>380</y>
-      <width>120</width>
-      <height>77</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Acceleration</string>
-    </property>
-    <property name="autoDefault">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Autocross">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>380</y>
-      <width>120</width>
-      <height>77</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Autocross</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="SkidPad">
-    <property name="geometry">
-     <rect>
-      <x>387</x>
-      <y>380</y>
-      <width>120</width>
-      <height>77</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>SkidPad</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Endurance">
-    <property name="geometry">
-     <rect>
-      <x>514</x>
-      <y>380</y>
-      <width>120</width>
-      <height>77</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Endurance</string>
-    </property>
-   </widget>
-   <widget class="QFrame" name="BrakeStatus">
-    <property name="geometry">
-     <rect>
-      <x>42</x>
-      <y>438</y>
-      <width>49</width>
-      <height>7</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QFrame{
-	border-radius: 2px;
-	background-color: rgb(108, 108, 108);
-	background-position: center;
-}
-
-QFrame:hover{
-	background-color: rgb(23, 165, 0);
-}</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-   </widget>
-   <widget class="QFrame" name="AccelerationStatus">
-    <property name="geometry">
-     <rect>
-      <x>166</x>
-      <y>438</y>
-      <width>49</width>
-      <height>7</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QFrame{
-	border-radius: 2px;
-	background-color: rgb(108, 108, 108);
-	background-position: center;
-}
-
-QFrame:hover{
-	background-color: rgb(23, 165, 0);
-}</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-   </widget>
-   <widget class="QFrame" name="AutorcrossStatus">
-    <property name="geometry">
-     <rect>
-      <x>293</x>
-      <y>438</y>
-      <width>49</width>
-      <height>7</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QFrame{
-	border-radius: 2px;
-	background-color: rgb(108, 108, 108);
-	background-position: center;
-}
-
-QFrame:hover{
-	background-color: rgb(23, 165, 0);
-}</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-   </widget>
-   <widget class="QFrame" name="SkidpadStatus">
-    <property name="geometry">
-     <rect>
-      <x>423</x>
-      <y>438</y>
-      <width>49</width>
-      <height>7</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QFrame{
-	border-radius: 2px;
-	background-color: rgb(108, 108, 108);
-	background-position: center;
-}
-
-QFrame:hover{
-	background-color: rgb(23, 165, 0);
-}</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-   </widget>
-   <widget class="QFrame" name="EnduranceStatus">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>438</y>
-      <width>49</width>
-      <height>7</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QFrame{
-	border-radius: 2px;
-	background-color: rgb(108, 108, 108);
-	background-position: center;
-}
-
-QFrame:hover{
-	background-color: rgb(23, 165, 0);
-}</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-   </widget>
    <widget class="QFrame" name="HighVoltage">
     <property name="geometry">
      <rect>
@@ -309,6 +48,32 @@ QFrame:hover{
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>118</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QProgressBar{
+	border-radius: 5px;
+	background-color: rgb(44, 44, 44);
+	border-color: rgb(23, 165, 0);
+}
+
+QProgressBar::chunk {
+	 border-radius: 5px;
+     background-color: green;
+ }
+</string>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="LowVoltage">
     <property name="geometry">
@@ -402,7 +167,7 @@ QFrame:hover{
       <number>20</number>
      </property>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
        <property name="spacing">
         <number>0</number>
        </property>
@@ -422,7 +187,7 @@ QFrame:hover{
      </item>
     </layout>
    </widget>
-   <widget class="QFrame" name="frame_2">
+   <widget class="QFrame" name="Odometer">
     <property name="geometry">
      <rect>
       <x>202</x>
@@ -444,6 +209,297 @@ QFrame:hover{
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
+   </widget>
+   <widget class="QFrame" name="Bottom">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>641</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="AutorcrossStatus">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>60</y>
+       <width>49</width>
+       <height>7</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 2px;
+	background-color: rgb(108, 108, 108);
+	background-position: center;
+}
+
+QFrame:hover{
+	background-color: rgb(23, 165, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="SkidpadStatus">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>60</y>
+       <width>49</width>
+       <height>7</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 2px;
+	background-color: rgb(108, 108, 108);
+	background-position: center;
+}
+
+QFrame:hover{
+	background-color: rgb(23, 165, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Autocross">
+     <property name="geometry">
+      <rect>
+       <x>257</x>
+       <y>2</y>
+       <width>120</width>
+       <height>77</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Autocross</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="EnduranceStatus">
+     <property name="geometry">
+      <rect>
+       <x>547</x>
+       <y>60</y>
+       <width>49</width>
+       <height>7</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 2px;
+	background-color: rgb(108, 108, 108);
+	background-position: center;
+}
+
+QFrame:hover{
+	background-color: rgb(23, 165, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="BrakeStatus">
+     <property name="geometry">
+      <rect>
+       <x>39</x>
+       <y>60</y>
+       <width>49</width>
+       <height>7</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 2px;
+	background-color: rgb(108, 108, 108);
+	background-position: center;
+}
+
+QFrame:hover{
+	background-color: rgb(23, 165, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Brake">
+     <property name="geometry">
+      <rect>
+       <x>3</x>
+       <y>2</y>
+       <width>120</width>
+       <height>77</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>12</pointsize>
+       <weight>99</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 900 12pt &quot;Arial Black&quot;;
+background-color: rgb(44, 44, 44);
+
+QPushButton :: hover{
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Brake</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SkidPad">
+     <property name="geometry">
+      <rect>
+       <x>384</x>
+       <y>2</y>
+       <width>120</width>
+       <height>77</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>SkidPad</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Acceleration">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>2</y>
+       <width>120</width>
+       <height>77</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Acceleration</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Endurance">
+     <property name="geometry">
+      <rect>
+       <x>511</x>
+       <y>2</y>
+       <width>120</width>
+       <height>77</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 900 12pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Endurance</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="AccelerationStatus">
+     <property name="geometry">
+      <rect>
+       <x>163</x>
+       <y>60</y>
+       <width>49</width>
+       <height>7</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 2px;
+	background-color: rgb(108, 108, 108);
+	background-position: center;
+}
+
+QFrame:hover{
+	background-color: rgb(23, 165, 0);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <zorder>Endurance</zorder>
+    <zorder>Acceleration</zorder>
+    <zorder>SkidPad</zorder>
+    <zorder>Brake</zorder>
+    <zorder>Autocross</zorder>
+    <zorder>AccelerationStatus</zorder>
+    <zorder>AutorcrossStatus</zorder>
+    <zorder>BrakeStatus</zorder>
+    <zorder>EnduranceStatus</zorder>
+    <zorder>SkidpadStatus</zorder>
    </widget>
   </widget>
  </widget>
